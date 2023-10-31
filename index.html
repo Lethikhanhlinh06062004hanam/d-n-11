@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the website of a restaurant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;500&family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <header>
+      <a href="#" class="logo"
+        ><img
+          src="./img/Cream and Black Simple Elegant Catering Food Logo.png"
+          alt=""
+      /></a>
+      <div id="menu-bar" class="fas fa-hamburger"></div>
+      <a href="">Home</a>
+      <a
+        href="https://menuofrestaurant.my.canva.site/menuofrestaurant"
+        target="_blank"
+        >Menu</a
+      >
+      <a href="">About</a>
+      <a href="">Order</a>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a class="active" href="#about">About</a></li>
+          <li><a href="#Menu">Menu</a></li>
+          <li><a href="#popular">Popular</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#order">Order</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="home" id="home">
+      <div class="content">
+        <h3>We believe delicious food will make your life happier</h3>
+        <p>
+          Taste the difference. Feel the difference. A fusion of flavors and
+          cultures. The best of both worlds in one bite. Where East meets West
+          with a twist
+        </p>
+        <a href="#"><button class="btn">get started</button></a>
+      </div>
+      <div class="image">
+        <img src="./img/istockphoto-1322628932-612x612.jpg" alt="" />
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="image">
+        <div class="content">
+          <h3>A story about us</h3>
+          <p>
+            The restaurant was small but cozy, with wooden tables and chairs,
+            colorful lanterns, and paintings of Vietnam’s landscapes
+          </p>
+          <p>
+            The stars are friendly and welcoming, and always greeted customer
+            with a smile
+          </p>
+          <a href="#"><button class="btn">read more</button></a>
+        </div>
+      </div>
+    </section>
+    <section class="menu" id="menu">
+      <h1 class="heading">our delicious <span>menu</span></h1>
+      <ul class="list">
+        <li class="btn" data-src="./img/photo.jpg">breakfast</li>
+        <li class="btn active" data-src="./img/pho.jpg">lunch</li>
+        <li class="btn" data-src="./img/download.jpg">dinner</li>
+        <li class="btn" data-src="./img/cake.webp">dessert</li>
+      </ul>
+
+      <div class="row">
+        <div class="image">
+          <img src="./img/R.jfif" id="menu-img" alt="" />
+        </div>
+        <div class="content">
+          <div class="info">
+            <h3><span>01.</span> we server best food in the country</h3>
+            <p>so fresh, so clean, and so yummy</p>
+          </div>
+          <div class="info">
+            <h3><span>02.</span> we provide the most dedicated service</h3>
+            <p>so friendly, so good, and so wonderful</p>
+          </div>
+          <div class="info">
+            <h3><span>03.</span> we provide foods with full of nutrients</h3>
+            <p>so healthy, so nice, and full of nutrients</p>
+          </div>
+          <div class="info">
+            <h3><span>04.</span> we offer the best price</h3>
+            <p>cheaper, easier , and better</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="popular" id="popular">
+      <h1 class="heading">most<span>popular</span>dishes</h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="./img/xoi.jpg" alt="" />
+          <h3>delicious taste</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <div class="price">VND 30.000</div>
+          <a href="#"><button class="btn">add to card</button></a>
+        </div>
+        <div class="box">
+          <img src="./img/bani.jpg" alt="" />
+          <h3>delicious taste</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <div class="price">VND 25.000</div>
+          <a href="#"><button class="btn">add to card</button></a>
+        </div>
+        <div class="box">
+          <img src="./img/kemn.jfif" alt="" />
+          <h3>delicious taste</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <div class="price">VND 15.000</div>
+          <a href="#"><button class="btn">add to card</button></a>
+        </div>
+        <div class="box">
+          <img
+            src="./img/danh-sach-nhung-mon-an-truyen-thong-viet-nam-ngon-nhat_095051483.jpg"
+            alt=""
+          />
+          <h3>delicious taste</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <div class="price">VND 55.000</div>
+          <a href="#"><button class="btn">add to card</button></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+      <h1 class="heading">our restaurant<span>gallery</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="./img/R (1).jfif" alt="" />
+          <h3>best restaurant</h3>
+        </div>
+        <div class="box">
+          <img src="./img/nv.jfif" alt="" />
+          <h3>best service</h3>
+        </div>
+        <div class="box">
+          <img src="./img/vc1.jpg" alt="" />
+          <h3>best landscapes</h3>
+        </div>
+        <div class="box">
+          <img
+            src="./img/cach-lam-bun-cha-khong-can-nuong-ma-van-ngon-de-lam-tai-nha-202108301142540507.jpg"
+            alt=""
+          />
+          <h3>best food</h3>
+        </div>
+        <div class="box">
+          <img src="./img/nom.webp" alt="" />
+          <h3>best food</h3>
+        </div>
+        <div class="box">
+          <img src="./img/goi.jfif" alt="" />
+          <h3>best food</h3>
+        </div>
+      </div>
+    </section>
+    <section class="order" id="order">
+      <h1 class="heading">make an <span>order</span></h1>
+      <div class="row">
+        <form action="">
+          <input type="text" placeholder="your name" class="box" />
+          <input type="email" placeholder="your email" class="box" />
+          <input type="password" placeholder="your password" class="box" />
+          <input type="number" placeholder="your number" class="box" />
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            class="box address"
+            placeholder="your address"
+          >
+          </textarea>
+          <input type="submit" value="order now" class="btn" />
+        </form>
+        <div class="image" >
+          <img src="./img/ok.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <div class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>contact info</h3>
+          <p><i class="fas fa-map-market-alt"></i>mumbai, indai 400104</p>
+          <p><i class="fas fa-envelope"></i>example@gmail.com</p>
+          <p><i class="fas fa-phone"></i>+789-575-389</p>
+          <p><i class="fas fa-phone"></i>+123-457-399</p>
+        </div>
+        <div class="box">
+          <h3>branch location</h3>
+          <a href="#">usa</a>
+          <a href="#">korea</a>
+          <a href="#">japan</a>
+          <a href="#">vietnam</a>
+        </div>
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#">home</a>
+          <a href="#">about</a>
+          <a href="#">menu</a>
+          <a href="#">popular</a>
+          <a href="#">gallery</a>
+          <a href="#">order</a>
+        </div>
+        <div class="box">
+          <h3>follow us</h3>
+          <a href="#">instagram</a>
+          <a href="#">facebook</a>
+          <a href="#">twitter</a>
+          <a href="#">tiktok</a>
+        </div>
+      </div>
+      <h1 class="credit">
+        create by<a href="#"> Mrs.Linhle </a>all rights reserved
+      </h1>
+    </div>
+  </body>
+</html>
